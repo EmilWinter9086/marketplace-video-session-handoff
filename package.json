@@ -1,0 +1,17 @@
+{
+  "name": "marketplace-session-room",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/marketplace-session.ts",
+    "test": "node --experimental-strip-types src/marketplace-session.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.3"
+  }
+}
